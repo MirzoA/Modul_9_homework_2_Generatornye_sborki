@@ -21,7 +21,7 @@ def exponential_def(x, y):
    return x ** y
 print(exponential_def(2, 4)) # Выводит 16
 
-# Пример создания вызываемого объекта
+# Вызываемый объект
 class Rect:
    def __init__(self, a, b):
        self.a = a
